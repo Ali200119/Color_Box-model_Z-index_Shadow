@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dbdbdb;
+}
+
+nav {
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    width: 80%;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    background-color: #4ba29f;
+    width: 25%;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.menu {
+    width: 26%;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li {
+    height: 50px;
+    padding-top: 14px;
+}
+
+.menu ul li:first-child {
+    border-right: 1px solid rgb(200, 200, 200);
+    width: 25%;
+}
+
+.menu ul li:nth-child(2) {
+    border-right: 1px solid rgb(200, 200, 200);
+    width: 31%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.body-container .middle-elements {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-container .middle-elements .about {
+    height: 500px;
+    width: 64%;
+    background-color: white;
+}
+
+.body-container .middle-elements .about .about-margin {
+    width: 97%;
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 500px;
+}
+
+.body-container .middle-elements .about .about-margin hr {
+    margin-top: 6px;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.body-container .middle-elements .about .about-margin .content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.body-container .middle-elements .about .about-margin .content .text {
+    margin-left: 20px;
+}
+
+.body-container .middle-elements .about .about-margin .content .text p {
+    margin-top: 20px;
+}
+
+.body-container .middle-elements .about .about-margin .content .image{
+    width: 400%;
+}
+
+.body-container .middle-elements .about .about-margin .content .image img {
+    width: 100%;
+}
+
+.body-container .middle-elements .social {
+    width: 25%;
+    height: 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.body-container .middle-elements .social h2 {
+    color: #4ba29f;
+}
+
+.body-container .middle-elements .social hr {
+    width: 275px;
+    border: 1px solid rgb(175, 175, 175);
+    margin-bottom: 20px;
+}
+
+.body-container .middle-elements .social img {
+    width: 60px;
+}
+
+.body-container .middle-elements .social .images {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+footer {
+    height: 70px;
+    margin-top: 320px;
+    background-color: #727272;
+    text-align: center;
+    color: white;
+    padding-top: 27px;
+    border-top: 5px solid #4ba29f;
+}
+
+footer h4 {
+    font-weight: unset;
+    opacity: 0.3;
+}
